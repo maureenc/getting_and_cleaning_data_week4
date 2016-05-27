@@ -8,7 +8,7 @@ The original data sets and their description are provided on the course website.
 The data files themselves can be found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip .
 The data files provided contain measurements obtained by motion sensors attached to a group of 30 subjects performing 6 different activities. A description of the measurements can be found in the file "features_info.txt", included in the zip-file. The zip-file unpacks into a directory "UCI_HAR_Dataset".
 
-The analysis script "run_analysis.R" analyzes these data sets and creates a new file called "sumdata.csv". This file contains the average of a subset of the measured variables, grouped by subject and activity. What follows is a description of the variables names in "sumdata.csv".
+The analysis script "run_analysis.R" analyzes these data sets and creates a new file called "sumdata.txt". This file contains the average of a subset of the measured variables, grouped by subject and activity. What follows is a description of the variables names in "sumdata.txt".
 - col 1 = subject: a numeric identifier for the person performing activites; whether a person belongs to the training or test group can be found in the files "./test/subject_test.txt" and "./train/subject_train.txt"
 - col 2 = activity_code: a numeric code for the specific activity that was performed during the measurement
 - col 3-68 = the average of the measurement as described by the column name, for a specific combination of subject and activity; a description of the variable that is measured can be found in the file "features_info.txt"
