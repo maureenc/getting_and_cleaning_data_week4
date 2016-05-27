@@ -15,4 +15,4 @@ This repo contains the analysis script "run_analysis.R" that performs the requir
 
 6. The script cleans up the column names, which takes care of part 4 of the assignment (i.e. assigning descriptive names to the variables). 
 
-7. Finally, "meanstd_data" is grouped by subject and activity, and saved in a new data frame called "meanstd_data_group". The average is computed for all the measured variables in "meanstd_data_group", for each subject/activity group separately. The result is saved in the data frame "sumdata", and written as a .csv file called "sumdata.csv". This completes part 5 of the assignment.
+7. Finally, "meanstd_data" is grouped by subject and activity, and saved in a new data frame called "meanstd_data_group". The average is computed for all the measured variables in "meanstd_data_group", for each subject/activity group separately. The result is saved in the data frame "sumdata", and written to a file called "sumdata.txt". This completes part 5 of the assignment.
