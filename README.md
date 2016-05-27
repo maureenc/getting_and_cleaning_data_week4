@@ -1,5 +1,5 @@
 # getting_and_cleaning_data_week4
-Week 4 assignment for the Coursera course "Getting and Cleaning Data"
+Week 4 assignment of the Coursera course "Getting and Cleaning Data"
 
 This repo contains the analysis script "run_analysis.R" that performs the required steps for the week 4 programming assignment of the course "Getting and Cleaning Data". The data set to be analyzed is provided on the course web site, and is described in detail in CodeBook.md. What follows is a description of the analysis steps.
 
